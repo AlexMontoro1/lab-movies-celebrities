@@ -1,0 +1,10 @@
+<div>
+  <h3>Celebrities List</h3>
+  <ul>
+    {{#each this.celebrity}}
+      <li>
+        <a href="{{this._id}}">{{this.name}}</a>
+      </li>
+    {{/each}}
+  </ul>
+</div>
